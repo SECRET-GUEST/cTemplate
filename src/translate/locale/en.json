@@ -1,0 +1,17 @@
+{
+  "gui": {
+      "txt1": "File program",
+      "txt2": "Select Input Directory",
+      "txt3": "Run program",
+      "txt4": "Please choose a correct output directory",
+      "txt5": "An error occurred during file sorting.",
+      "txt6": "This program sorts your files based on their extensions.",
+      "txt7": "Input and Output directories are identical.",
+      "txt8": "Memory Allocation Error.",
+      "txt9": "The output directory is a subdirectory of the input directory."
+  },
+  "program": {
+      "txt10": "Unable to create output directory",
+
+  }
+}

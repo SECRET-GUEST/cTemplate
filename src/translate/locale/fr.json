@@ -1,0 +1,17 @@
+{
+  "gui": {
+      "txt1": "Tri de Fichiers",
+      "txt2": "Sélectionner le Répertoire d'Entrée",
+      "txt3": "Exécuter le Trieur",
+      "txt4": "Veuillez choisir un répertoire de sortie correct",
+      "txt5": "Une erreur est survenue pendant le tri des fichiers.",
+      "txt6": "Ce programme tri les fichiers basés sur leur extensions.",
+      "txt7": "Les répertoires d'entrée et de sortie sont identiques.",
+      "txt8": "Erreur d'Allocation de Mémoire.",
+      "txt9": "Le répertoire de sortie est un sous-répertoire du répertoire d'entrée."
+  },
+  "program": {
+      "txt10": "Impossible de créer le répertoire de sortie",
+
+  }
+}
