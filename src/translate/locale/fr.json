@@ -1,0 +1,16 @@
+{
+  "gui": {
+      "txt1": "ISOMaker",
+      "txt2": "Sélectionner le disque",
+      "txt3": "Extraire l'image sur le disque",
+      "txt4": "Chemin de l'image",
+      "txt5": "Ouvrir",
+      "txt6": "Exécuter",
+      "txt7": "Extraire sur le disque",
+      "txt8": "Extraire l'image",
+      "txt9": "Le chemin du disque est vide.",
+      "txt10": "Le chemin de l'image est vide.",
+      "txt11": "Ouvrir le fichier",
+      "txt12": "Impossible de répertorier les périphériques de disque."
+    }
+}

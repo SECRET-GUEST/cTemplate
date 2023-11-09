@@ -1,0 +1,105 @@
+@define-color bg_color rgba(255, 255, 255, 0.8);
+@define-color text_color #34495e;
+@define-color button_color rgba(214, 234, 248, 0.9);
+@define-color button_hover_color rgba(174, 214, 241, 0.9);
+@define-color button_active_color rgba(133, 193, 233, 0.9);
+@define-color progressbar_color rgba(130, 224, 170, 0.8);
+@define-color open_button_color rgba(100, 149, 237, 0.5);
+@define-color execute_button_color rgba(50, 205, 50, 0.5);
+
+* {
+    transition: all 150ms ease-in-out;
+}
+
+.transparent-bg {
+    background-color: @bg_color;
+    backdrop-filter: blur(10px);
+}
+
+entry {
+    padding: 10px 20px;
+    background-color: @bg_color;
+    border-radius: 12px;
+    color: @text_color;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font: 18px Arial, sans-serif;
+}
+
+entry:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: @button_color;
+    color: @text_color ;
+    border-radius: 12px;
+    color: @text_color;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: @button_hover_color;
+}
+
+button:active {
+    background-color: @button_active_color;
+}
+
+button:focus {
+    outline: none;
+}
+
+comboboxtext {
+    padding: 10px 20px;
+    background-color: @bg_color;
+    border-radius: 12px;
+    color: @text_color;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font: 18px Arial, sans-serif;
+}
+
+comboboxtext:focus {
+    outline: none;
+}
+
+checkbutton {
+    padding: 10px 20px;
+    background-color: @bg_color;
+    border-radius: 12px;
+    color: @text_color;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+checkbutton:focus {
+    outline: none;
+}
+
+label {
+    color: @text_color;
+}
+
+progressbar trough {
+    background-color: @bg_color;
+    border-radius: 12px;
+}
+
+progressbar progress {
+    background-color: @progressbar_color;
+}
+
+#open_button {
+    background-color: @open_button_color;
+}
+
+#execute_button {
+    background-color: @execute_button_color;
+}
+

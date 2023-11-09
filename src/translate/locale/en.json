@@ -1,0 +1,16 @@
+{
+  "gui": {
+      "txt1": "ISOMaker",
+      "txt2": "Select disk",
+      "txt3": "Extract image to the disk",
+      "txt4": "Image path",
+      "txt5": "Open",
+      "txt6": "Execute",
+      "txt7": "Extract to Disk",
+      "txt8": "Extract Image",
+      "txt9": "Disk path is empty.",
+      "txt10": "Image path is empty.",
+      "txt11": "Open File",
+      "txt12": "Unable to list disk devices."
+  }
+}
